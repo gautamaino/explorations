@@ -1,0 +1,28 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+
+.basePanel{
+	
+
+	border-color: #280000;
+	
+	border: 4px solid;
+
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	height:200px;
+	background-color: #808080;
+
+	
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
