@@ -65,8 +65,8 @@ public class PagingGridDemo implements IsWidget, EntryPoint {
 		loader.addLoadHandler(new LoadResultListStoreBinding<PagingLoadConfig, AddressSlim, PagingLoadResult<AddressSlim>>(
 				store));
 
-		final PagingToolBar toolBar = new PagingToolBar(5);
-		toolBar.setPageSize(6);
+		final PagingToolBar toolBar = new PagingToolBar(6);
+		
 		toolBar.getElement().getStyle().setProperty("borderBottom", "none");
 		toolBar.bind(loader);
 
@@ -79,13 +79,13 @@ public class PagingGridDemo implements IsWidget, EntryPoint {
 		ColumnConfig<AddressSlim, String> city = new ColumnConfig<AddressSlim, String>(
 				props.getCity(), 150, "City");
 
-		List<ColumnConfig<AddressSlim, ?>> l = new ArrayList<ColumnConfig<AddressSlim, ?>>();
-		l.add(id);
-		l.add(name);
-		l.add(street);
-		l.add(city);
+		List<ColumnConfig<AddressSlim, ?>> list = new ArrayList<ColumnConfig<AddressSlim, ?>>();
+		list.add(id);
+		list.add(name);
+		list.add(street);
+		list.add(city);
 
-		ColumnModel<AddressSlim> cm = new ColumnModel<AddressSlim>(l);
+		ColumnModel<AddressSlim> cm = new ColumnModel<AddressSlim>(list);
 
 		Grid<AddressSlim> grid = new Grid<AddressSlim>(store, cm) {
 			@Override

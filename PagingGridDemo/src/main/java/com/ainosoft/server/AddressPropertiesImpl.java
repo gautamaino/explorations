@@ -12,7 +12,7 @@ public class AddressPropertiesImpl implements AddressProperties {
 
 			@Override
 			public void setValue(AddressSlim object, String value) {
-				value = object.getName();
+				object.setName(value);
 			}
 
 			@Override
@@ -35,7 +35,7 @@ public class AddressPropertiesImpl implements AddressProperties {
 
 			@Override
 			public void setValue(AddressSlim object, String value) {
-				value = object.getStreet();
+				object.setName(value);
 			}
 
 			@Override
@@ -58,7 +58,7 @@ public class AddressPropertiesImpl implements AddressProperties {
 
 			@Override
 			public void setValue(AddressSlim object, String value) {
-				value = object.getCity();
+				object.setCity(value);
 			}
 
 			@Override
@@ -81,7 +81,7 @@ public class AddressPropertiesImpl implements AddressProperties {
 
 			@Override
 			public void setValue(AddressSlim object, Integer value) {
-				value = object.getId();
+				object.setId(value);
 			}
 
 			@Override
