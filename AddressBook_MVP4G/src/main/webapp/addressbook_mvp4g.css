@@ -1,0 +1,112 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.saveButton {
+  display: block;
+  font-size: 10pt;
+  margin-left: 80px;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+.gwt-Label {
+    color:black;
+   
+}
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+.panel{
+	
+	width: 940px;
+	height:580px;
+	
+	alignment:centre;
+	border-color: white;
+	opacity: 0.9;
+    background-image: url("book_background.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-left: 150px;
+	
+
+}
+
+.panel2{
+	
+	width: 50%;
+	height:200px;
+	
+	alignment:centre;
+	border-color: #280000;
+	opacity: 0.8;
+	
+	margin-left: 100px;
+	
+
+}
+
+.basic{
+		background-image: url("1973898.jpg");
+}
+.nameBox{
+	margin-left: 20px;
+}
+
+.streetBox{
+	margin-left: 20px;
+}
+.cityBox{
+	margin-left: 32px;
+}
+.countryBox{
+	margin-left: 10px;
+}
+.zipBox{
+	margin-left: 37px;
+	
+}
+.stateBox {
+    margin-left: 24px;
+}
+
+.flexTable td {
+   border: 1px solid #BBBBBB;
+   padding: 10px;
+   text-align: center;
+   margin-left: 30%;
+   background-color: yellow;
+   
+}
+
+.disppanel{
+	margin-left: 50%;
+	background-color: black;
+}
+.width{
+	width:70px;
+}
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+
