@@ -1,0 +1,3 @@
+# Module addressbook_gwt
+# RPC service class, partial path of RPC policy file
+com.ainosoft.server.GreetingService, C56DD5EBC4ABC56FDC35FCEE1311DD55.gwt.rpc

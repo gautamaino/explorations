@@ -1,0 +1,105 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+.SaveButton{
+		
+	margin-top: 10px;
+	align : center;
+	
+}
+
+.AddAddressPage{
+	
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	margin: 40px 0px 70px;
+	text-align: center;
+	border: 2px solid;
+	background-color: Gray;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	alignment : center;
+		padding: 70px;
+}
+
+
+.BasePanel {
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	margin: 40px 0px 70px;
+	text-align: center;
+	border: 2px solid;
+	background-color: Gray;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 100%;
+
+}
+
+.ContainerPanel{
+		
+	width: 100%;
+	
+}
+
+.LabelStyle{
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	
+}
+.NavigatorPanel {
+	
+	font-size: 2em;
+	font-weight: bold;
+	color: yellow;
+	margin: 40px 0px 70px;
+	text-align: center;
+ 	margin-left: auto;
+	margin-right: auto; 
+	
+}
+.FlexStyle{
+	font-size: 32em;
+	
+	
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+.border{
+	border-width: 1px solid;
+}
