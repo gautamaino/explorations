@@ -1,0 +1,18 @@
+*{
+	margin: 0 auto;
+}
+.ao-layout-flow-HORIZONTAL-FIRST{
+    display:inline
+}
+.ao-layout-flow-HORIZONTAL-AFTER{
+    display:inline;
+}
+.ao-layout-flow-HORIZONTAL-LAST{
+    display:inline;
+}
+.ao-deck-snippet-Invisible{
+	display:none;	
+}
+.ao-deck-snippet-visible{
+	display:inline-block;	
+}

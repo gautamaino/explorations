@@ -1,0 +1,33 @@
+.ao-layout-flow-vertical{
+    
+    border: 4px solid red;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.ao-layout-flow-first{
+    
+    border: 3px solid blue;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.ao-layout-flow-second{
+    
+    border: 3px solid yellow;
+   margin-top:5px;
+    margin-bottom:5px;
+}
+.ao-layout-flow-third{
+     border: 3px solid green;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.ao-layout-flow-last{
+    border: 3px solid orange;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.ao-textField{
+    margin-left:3cm;
+    margin-top:2px;
+    margin-bottom:2px;
+}
